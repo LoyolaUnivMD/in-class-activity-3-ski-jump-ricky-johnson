@@ -1,0 +1,23 @@
+Introduce program
+
+// User Inputs
+Ask user for hill type (string)
+Ask user for jumper's speed (int)
+
+// Determine correct calculation based on hill type
+if hill type is normal
+    distance = jumper's speed * time in air (sqrt((2*46)/9.8))
+    points = 60 + (distance - 90) * 2
+else if hill type is large
+    distance = jumper's speed * time in air (sqrt((2*70)/9.8))
+    points = 60 + (distance - 120) * 1.8
+
+// Output
+Print points and distance
+
+if points >= 61
+    print "Great job for doing better than par!"
+else if points < 10
+    print "What happened??"
+else
+    print “Sorry, you didn’t go very far.”

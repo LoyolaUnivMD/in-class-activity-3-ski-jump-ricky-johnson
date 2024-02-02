@@ -5,7 +5,7 @@
 // Problem Statement: Calculate the distance traveled of a ski jump based on speed.
 //                    Determine how many points the jumper receives based on that distance.
 // Data In: Type of jump, jumper's speed
-// Data Out: Points, distance
+// Data Out: Points, distance, comment about performance
 // Credits: None
 
 
